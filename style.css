@@ -55,6 +55,23 @@ main{
   background-size: cover;
 }
 
+@media screen and (max-width: 768px) {
+  main{
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+  }
+
+  .main-item {
+    width: 90%;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #EEEEEE;
+ }
+
+}
+
+
 footer {
   height: 50px;
   width: 100%;
